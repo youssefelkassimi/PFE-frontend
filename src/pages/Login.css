@@ -1,0 +1,60 @@
+.login-page-container {
+  background-color: #f0f2f5; /* Light gray background */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  max-width: 400px; /* Adjust as needed */
+}
+
+.login-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-logo-placeholder {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-color: #007bff; /* Placeholder color, match your logo background */
+  margin: 0 auto 20px auto; /* Center and add space below */
+  /* Add styles for your logo image here if using one */
+}
+
+.login-title {
+  color: #003366; /* Dark blue title color */
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.forgot-password-link {
+  color: #007bff; /* Bootstrap primary blue */
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  background-color: #ff9900; /* Orange button color */
+  border-color: #ff9900;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #e68a00; /* Darker orange on hover */
+  border-color: #e68a00;
+}
+
+.alert-danger {
+  font-size: 0.9rem;
+} 
